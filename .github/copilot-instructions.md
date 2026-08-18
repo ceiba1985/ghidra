@@ -26,8 +26,7 @@
 
 ## Build and development
 - Required tools are documented in `README.md` and `DevGuide.md`:
-  - JDK 25 for development builds, matching the current requirement in `Ghidra/application.properties`
-  - Gradle 9.1+ for builds, matching the current minimum version in `Ghidra/application.properties`
+  - Use the current JDK and Gradle minimum versions from `Ghidra/application.properties`
   - Python 3.9 through 3.14 with `pip`
   - Native toolchains for native components (`gcc`/`clang`/`make` on Linux/macOS, Visual Studio build tools on Windows)
 - Before a full build, fetch non-Maven dependencies:
